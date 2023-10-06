@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/OmarTaha3/CRUD/static/css/main.50185b2f.css",
+    "main.js": "/OmarTaha3/CRUD/static/js/main.7de6c35a.js",
+    "static/js/404.f45906cd.chunk.js": "/OmarTaha3/CRUD/static/js/404.f45906cd.chunk.js",
+    "static/js/689.f12177b3.chunk.js": "/OmarTaha3/CRUD/static/js/689.f12177b3.chunk.js",
+    "static/js/656.a4ef08ad.chunk.js": "/OmarTaha3/CRUD/static/js/656.a4ef08ad.chunk.js",
+    "static/js/616.6c27b8ce.chunk.js": "/OmarTaha3/CRUD/static/js/616.6c27b8ce.chunk.js",
+    "index.html": "/OmarTaha3/CRUD/index.html",
+    "main.50185b2f.css.map": "/OmarTaha3/CRUD/static/css/main.50185b2f.css.map",
+    "main.7de6c35a.js.map": "/OmarTaha3/CRUD/static/js/main.7de6c35a.js.map",
+    "404.f45906cd.chunk.js.map": "/OmarTaha3/CRUD/static/js/404.f45906cd.chunk.js.map",
+    "689.f12177b3.chunk.js.map": "/OmarTaha3/CRUD/static/js/689.f12177b3.chunk.js.map",
+    "656.a4ef08ad.chunk.js.map": "/OmarTaha3/CRUD/static/js/656.a4ef08ad.chunk.js.map",
+    "616.6c27b8ce.chunk.js.map": "/OmarTaha3/CRUD/static/js/616.6c27b8ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50185b2f.css",
+    "static/js/main.7de6c35a.js"
+  ]
+}
