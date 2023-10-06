@@ -7,7 +7,7 @@ export const fetchPosts = createAsyncThunk(
   async (_, thunkAPI) => {
     const { rejectWithValue } = thunkAPI;
     try {
-      const res = await fetch("http://localhost:5000/posts");
+      const res = await fetch("https://books-ktwz.onrender.com/posts");
       const data = await res.json();
       return data;
     } catch (error) {
@@ -21,7 +21,7 @@ export const getPost = createAsyncThunk(
   async (id, thunkAPI) => {
     const { rejectWithValue } = thunkAPI;
     try {
-      const res = await fetch(`http://localhost:5000/posts/${id}`);
+      const res = await fetch(`https://books-ktwz.onrender.com/posts/${id}`);
       const data = res.json();
       return data;
     } catch (error) {
@@ -35,7 +35,7 @@ export const deletePost = createAsyncThunk(
   async (id, thunkAPI) => {
     const { rejectWithValue } = thunkAPI;
     try {
-      await fetch(`http://localhost:5000/posts/${id}`, {
+      await fetch(`https://books-ktwz.onrender.com/posts/${id}`, {
         method: "DELETE",
       });
       return id;
@@ -52,7 +52,7 @@ export const insertPost = createAsyncThunk(
     const { auth } = getState();
     item.userId = auth.id;
     try {
-      const res = await fetch("http://localhost:5000/posts", {
+      const res = await fetch("https://books-ktwz.onrender.com/posts", {
         method: "POST",
         body: JSON.stringify(item),
         headers: {
@@ -72,7 +72,7 @@ export const editPost = createAsyncThunk(
   async (item, thunkAPI) => {
     const { rejectWithValue } = thunkAPI;
     try {
-      const res = await fetch(`http://localhost:5000/posts/${item.id}`, {
+      const res = await fetch(`https://books-ktwz.onrender.com/posts/${item.id}`, {
         method: "PATCH",
         body: JSON.stringify(item),
         headers: {
